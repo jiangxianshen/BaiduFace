@@ -34,7 +34,7 @@ result_score=result['result']['score']
 
 if result_score >= 80:
     print('相似度为%s,完全一个人' % result_score)
-elif (result_score > 60 and result_score < 80):
+elif (result_score >= 60 and result_score < 80):
     print('相似度为%s，可能是同一个人' % result_score)
 else:
     print('相似度仅为%s，不是同一个人' % result_score)
