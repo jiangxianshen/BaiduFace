@@ -2,9 +2,9 @@ from aip import AipFace
 import base64
 
 """ 你的 APPID AK SK """
-APP_ID='15436600'
-API_KEY='Nc90b82tqFd18u6di7zpdCXk'
-SECRET_KEY='HrniyZl9GEpjWL9jZbFquvwej4evyf1c'
+APP_ID=''
+API_KEY=''
+SECRET_KEY=''
 
 '''创建应用'''
 client=AipFace(APP_ID,API_KEY,SECRET_KEY)
